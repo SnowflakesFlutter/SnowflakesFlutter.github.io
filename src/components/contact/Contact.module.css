@@ -1,0 +1,45 @@
+@import "../../vars.css";
+
+.contact {
+  padding: 5rem 0;
+  background-color: var(--color-bg);
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: var(--color-text);
+}
+
+.title p {
+  color: var(--color-secondary);
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.title h3 {
+  font-size: 1.5rem;
+  color: #2d2e32;
+  margin-bottom: 0.8rem;
+}
+
+.Icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+  margin-top: 6rem;
+}
+
+.Icons a {
+  color: #2d2e32;
+}
